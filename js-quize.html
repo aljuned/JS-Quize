@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quize</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-quiz" id="quizcontainer">
+            <div class="tittle">Computer Quiz</div>
+            <div id="question" class="question"></div>
+            <label class="option"><input type="radio" name="option" value="1"><span id="opt1"></span></label>
+            <label class="option"><input type="radio" name="option" value="2"><span id="opt2"></span></label>
+            <label class="option"><input type="radio" name="option" value="3"><span id="opt3"></span></label>
+            <label class="option"><input type="radio" name="option" value="4"><span id="opt4"></span></label>
+
+            <button id="nextButton" class="next-btn btn btn-primary">Next Question</button>
+        </div>
+
+
+        <div id="result" class="resultquiz"></div>
+    </div>
+
+
+    <script src="./js-question.js"></script>
+    <script src="./js-quize.js"></script>
+</body>
+
+</html>
